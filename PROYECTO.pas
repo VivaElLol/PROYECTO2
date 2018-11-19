@@ -59,7 +59,7 @@ Function Voltear(n : integer) : integer;                                        
          End;
 
         voltear:=aux;
-     End;                                                                       {ënd voltear}
+     End;                                                                       {Ã«nd voltear}
 
 
 Function EI(n1,n2 : Integer) : boolean;                                  {Valida que un numero sea el inverso del otro}
@@ -206,17 +206,17 @@ begin
     {gotoXY;}writeln('|                                                  ');
     Clrscr;
     readkey;
-       Writeln('¿Que opcion desea?');
+       Writeln('Â¿Que opcion desea?');
        Writeln('1: Procedimientos automantico');
        Writeln('2: Ejecutar cada funcion por separado');
        readln(Opcion);
 
-         {agregue esta validacion para ya tener todo en este archivo del proyecto}
+         {agregue estas validaciones para ya tener todo en este archivo del proyecto}
         if (x<0) or (y<0) then
-           writeln('Error los valores deben de ser mayores o iguales a cero');
+        writeln('Error los valores deben de ser mayores o iguales a cero'); {valida si el usuario mete valores negativos}
 
          if IOResult <> 0 then                    {valida si el usuario mete un caracter}
-           WriteLn('Valor Inválido')
+           WriteLn('Valor InvÃ¡lido')
          else
            WriteLn('Valor permitido');
 
